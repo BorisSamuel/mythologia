@@ -1,0 +1,278 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#imagemytho{
+    margin-top: 50px;
+    margin-left: -50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    overflow: hidden;
+    background-color:turquoise;
+    position: fixed;
+    width: 100%;
+    margin-bottom: auto;
+    opacity: 0.9; 
+    z-index: 99;
+}
+#menu1{
+    margin-top: 30px;
+}
+#img img{
+   height: 10%;
+}
+#logo1{
+    float: left;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow: hidden;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    vertical-align: middle;
+    color:black; 
+    font-size: 40px;
+}
+#fut1{
+    float: left;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow: hidden;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 15px;
+    vertical-align: middle;
+    color:black; 
+    background-color: cyan;
+    font-size: 40px;
+}
+#fut2{
+    text-align: left;
+    font-weight: bolder;
+    margin-top: 10px;
+    font-size: 15px;
+    color:black;
+}
+#footer{
+    background-color:turquoise;
+    position: fixed;
+    width: 100%;
+
+}
+header li {
+    float: right;
+    font-size: 18px;
+}
+header li a {
+    text-decoration: none;
+    display: block;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-align: justify;
+    padding: 0px 15px;
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+ 
+#textsec1{
+    padding: 0px 25%;
+    text-align: center;
+    margin-top: 50px;
+}
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 1.4em;
+    margin: 15px;
+    font-weight: bold;
+}
+#sectionG{
+    background-color:rgb(200, 255, 255);
+    margin-bottom: 15px;
+}
+#textemytho{
+    text-align: justify;
+    margin:80px;
+    margin-top: 50px;
+    margin-bottom: 16px;
+}
+#titre{
+    text-align: justify;
+    margin: 50px;
+    font-weight: bold;
+}
+#texteorigine{
+    flex-direction:column;
+   width:50%;
+   text-align: justify;
+   margin-left: 45px;
+   margin-top: 30px;
+}
+#origine{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 2.8%
+}
+#qwerty{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 150px;
+}
+#fotoakey{
+    margin-left: 10px;
+}
+#fotoakey1{
+    margin-left: 0px;
+    margin-right: -15px;
+}
+#ejiptext{
+    margin-left: 4px;
+}
+#nature{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 2.8%;
+    /*text-align: center;
+    font-family: Dancing Script ;*/
+}
+#istwa{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 25px;
+    padding: 30px 3.8%;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+h1 {
+    font-family:serif;
+    text-transform: uppercase;
+    text-align: center;
+    color:cyan;
+    font-size: 5.5em;
+    margin-top: 100px;
+    text-shadow: 1px 3px 2px black;
+  }
+  
+
+h2{
+    text-align: left;
+    color:black;
+    margin-top: 15px;
+    margin-left: 80px;
+    margin-bottom: -30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+  }
+#info{
+    text-align: justify;
+    color: black;
+   font-size: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#info1{
+    text-align: left;
+    color: black;
+   font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#firsttrait{
+  text-shadow: black;
+    text-align: left;
+    font-weight: bolder;
+    margin-top: 50px;
+    font-size: 35px;
+    color:white;
+   background-color:rgba(74, 88, 86, 0.931);
+}
+#firsttrait1{
+    text-shadow: black;
+      text-align: left;
+      font-weight: bolder;
+      margin-top: 10px;
+      font-size: 35px;
+      color:white;
+     background-color:rgba(74, 88, 86, 0.931);
+  
+  }
+#darius{
+    background-color:turquoise;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2px 5.8%;
+}
+#footr1{
+        float: left;
+        font-weight: bold;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        overflow: hidden;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        margin-left: 10px;
+        vertical-align: middle;
+        color:black; 
+        font-size: 20px;
+}
+#footr2{
+    margin-left: 30px;
+    margin-right:30px ;
+    font-size: 20px;
+}
+#titext{
+    font-size: 15px;
+    
+}
+#imageindex {
+    padding-top: 100px;
+    padding-bottom: -500px;
+    background: url(dieu.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 799px;
+}
+#imageathena{
+    padding-top: 60px;
+    background: url( Athéna.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 799px;
+}
+#imagehistorique{
+    padding-top: 60px;
+    background: url(romee.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 799px;
+}
+#imageegypte{
+    padding-top: 60px;
+    background: url(egyptee.png) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 799px;
+}
+#copyright{
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 45px;
+    margin-bottom: -10px;
+}
+/*#fout{
+    margin-left: 75%;
+    margin-top: -289px;
+}
+#foutpic{
+    width: 100px;
+}*/
